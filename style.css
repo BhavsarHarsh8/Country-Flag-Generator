@@ -1,0 +1,31 @@
+.container{
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  padding: 0px 30px 20px 30px;
+  background-color: lavender;
+  border-radius: 10px;
+  box-shadow: 12px 12px 10px 2px rgba(0, 0, 255, .2);
+}
+.dropdown select{
+    width: 175px;
+  height: 30px;
+  text-align: center;
+  margin: 20px 10px 25px 10px;
+}
+
+.images img{
+    height: 120px;
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+#btnFlag{
+    width: 150px;
+  height: 30px;
+  border-radius: 30px;
+  border: 1px solid darkgray;
+  cursor: pointer;
+}
